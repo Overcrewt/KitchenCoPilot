@@ -27,6 +27,7 @@ namespace KitchenCoPilot
             if (ViewModel != null)
             {
                 await ViewModel.FilterRecipesByIngredientAsync(IngredientEntry.Text);
+                FilterGrid.IsVisible = false;
             }
         }
 
@@ -35,6 +36,7 @@ namespace KitchenCoPilot
             if (ViewModel != null)
             {
                 await ViewModel.FilterRecipesByCategoryAsync(CategoryEntry.Text);
+                FilterGrid.IsVisible = false;
             }
         }
 
@@ -43,6 +45,7 @@ namespace KitchenCoPilot
             if (ViewModel != null)
             {
                 await ViewModel.FilterRecipesByAreaAsync(AreaEntry.Text);
+                FilterGrid.IsVisible = false;
             }
         }
 
