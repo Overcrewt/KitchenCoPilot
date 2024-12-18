@@ -1,0 +1,102 @@
+
+*.vsidx
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Ignore NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+# Uncomment if necessary
+# packages/*
+
+# Ignore NPM Packages
+node_modules/
+
+# Ignore JetBrains Rider project files
+.idea/
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Ignore folder config file
+Desktop.ini
+
+# Ignore Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Ignore the local NuGet repository
+*.nupkg
+*.snupkg
+
+# Ignore the build output directory
+build/
+
+# Ignore the publish output directory
+publish/
+
+# Ignore the test results directory
+TestResults/
+
+# Ignore the coverage results directory
+coverage/
+
+# Ignore the stylecop cache file
+.stylecop.cache
+
+# Ignore the Resharper files
+_ReSharper.Caches/
+
+# Ignore the code coverage results
+*.coverage
+*.coveragexml
+
+# Ignore the Visual Studio Code workspace file
+*.code-workspace
+
+# Ignore the Visual Studio Code settings file
+.vscode/settings.json
+
+# Ignore the Visual Studio Code extensions file
+.vscode/extensions.json
+
+# Ignore the Visual Studio Code launch file
+.vscode/launch.json
+
+# Ignore the Visual Studio Code tasks file
+.vscode/tasks.json
+
+# Ignore the Visual Studio Code snippets file
+.vscode/snippets/
+
+# Ignore the Visual Studio Code debug file
+.vscode/debug/
+
+# Ignore the Visual Studio Code logs file
+.vscode/logs/
