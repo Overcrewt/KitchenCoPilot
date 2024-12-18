@@ -10,8 +10,37 @@
 
     <StackLayout Padding="10">
         <Label Text="Recipes" FontSize="24" HorizontalOptions="Center" />
-        <SearchBar x:Name="RecipeSearchBar" Placeholder="Search for recipes..." />
-        <Button Text="Search" Clicked="OnSearchButtonClicked" />
+        <SearchBar x:Name="RecipeSearchBar" Placeholder="Search for recipes..." BackgroundColor="#F0F0F0" TextColor="Black"/>
+        <Button Text="Search" Clicked="OnSearchButtonClicked" WidthRequest="100" HorizontalOptions="Start" Margin="0,5,0,5"/>
+
+        <Button Text="Filter" Clicked="OnFilterButtonClicked" WidthRequest="100" HorizontalOptions="Start" Margin="0,20,0,0" />
+
+        <Grid x:Name="FilterGrid" IsVisible="False" Margin="0,20,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Label Text="Filter by Ingredient" FontSize="18" Grid.Row="0" />
+            <Entry x:Name="IngredientEntry" Placeholder="Enter ingredient..." BackgroundColor="#F0F0F0" TextColor="Black" Grid.Row="1" />
+            <Button Text="Filter" Clicked="OnFilterByIngredientClicked" WidthRequest="100" HorizontalOptions="Start" Grid.Row="2" Margin="0,5,0,5" />
+
+            <Label Text="Filter by Category" FontSize="18" Grid.Row="3" />
+            <Entry x:Name="CategoryEntry" Placeholder="Enter category..." BackgroundColor="#F0F0F0" TextColor="Black" Grid.Row="4" />
+            <Button Text="Filter" Clicked="OnFilterByCategoryClicked" WidthRequest="100" HorizontalOptions="Start" Grid.Row="5" Margin="0,5,0,5" />
+
+            <Label Text="Filter by Area" FontSize="18" Grid.Row="6" />
+            <Entry x:Name="AreaEntry" Placeholder="Enter area..." BackgroundColor="#F0F0F0" TextColor="Black" Grid.Row="7" />
+            <Button Text="Filter" Clicked="OnFilterByAreaClicked" WidthRequest="100" HorizontalOptions="Start" Grid.Row="8" Margin="0,5,0,5"/>
+        </Grid>
+
         <CollectionView ItemsSource="{Binding Recipes}" VerticalOptions="FillAndExpand" SelectionMode="Single" SelectionChanged="OnRecipeSelected">
             <CollectionView.ItemTemplate>
                 <DataTemplate>

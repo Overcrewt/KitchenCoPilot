@@ -20,7 +20,23 @@ namespace KitchenCoPilot
             return response?.Meals ?? new List<Recipe>();
         }
 
-        // Add other methods for different API endpoints as needed
+        public async Task<List<Recipe>> FilterRecipesByIngredientAsync(string ingredient)
+        {
+            var response = await _httpClient.GetFromJsonAsync<RecipeResponse>($"filter.php?i={ingredient}");
+            return response?.Meals ?? new List<Recipe>();
+        }
+
+        public async Task<List<Recipe>> FilterRecipesByCategoryAsync(string category)
+        {
+            var response = await _httpClient.GetFromJsonAsync<RecipeResponse>($"filter.php?c={category}");
+            return response?.Meals ?? new List<Recipe>();
+        }
+
+        public async Task<List<Recipe>> FilterRecipesByAreaAsync(string area)
+        {
+            var response = await _httpClient.GetFromJsonAsync<RecipeResponse>($"filter.php?a={area}");
+            return response?.Meals ?? new List<Recipe>();
+        }
     }
 
     public class RecipeResponse

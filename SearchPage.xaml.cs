@@ -17,6 +17,35 @@ namespace KitchenCoPilot
             }
         }
 
+        private void OnFilterButtonClicked(object sender, EventArgs e)
+        {
+            FilterGrid.IsVisible = !FilterGrid.IsVisible;
+        }
+
+        private async void OnFilterByIngredientClicked(object sender, EventArgs e)
+        {
+            if (ViewModel != null)
+            {
+                await ViewModel.FilterRecipesByIngredientAsync(IngredientEntry.Text);
+            }
+        }
+
+        private async void OnFilterByCategoryClicked(object sender, EventArgs e)
+        {
+            if (ViewModel != null)
+            {
+                await ViewModel.FilterRecipesByCategoryAsync(CategoryEntry.Text);
+            }
+        }
+
+        private async void OnFilterByAreaClicked(object sender, EventArgs e)
+        {
+            if (ViewModel != null)
+            {
+                await ViewModel.FilterRecipesByAreaAsync(AreaEntry.Text);
+            }
+        }
+
         private async void OnRecipeSelected(object sender, SelectionChangedEventArgs e)
         {
             if (e.CurrentSelection.FirstOrDefault() is Recipe selectedRecipe)
