@@ -1,12 +1,109 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\KitchenCoPilot\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|c:\\users\\opilane\\source\\repos\\kitchencopilot\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|solutionrelative:recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|c:\\users\\opilane\\source\\repos\\kitchencopilot\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|c:\\users\\opilane\\source\\repos\\kitchencopilot\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|solutionrelative:searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|c:\\users\\opilane\\source\\repos\\kitchencopilot\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|solutionrelative:searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|c:\\users\\opilane\\source\\repos\\kitchencopilot\\recipeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|solutionrelative:recipeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\KitchenCoPilot\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\KitchenCoPilot\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:55:39.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\KitchenCoPilot\\SearchPage.xaml.cs",
+              "RelativeDocumentMoniker": "SearchPage.xaml.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\KitchenCoPilot\\SearchPage.xaml.cs",
+              "RelativeToolTip": "SearchPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:47:52.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SearchPage.xaml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\KitchenCoPilot\\SearchPage.xaml",
+              "RelativeDocumentMoniker": "SearchPage.xaml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\KitchenCoPilot\\SearchPage.xaml",
+              "RelativeToolTip": "SearchPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T09:47:28.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecipeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\KitchenCoPilot\\RecipeViewModel.cs",
+              "RelativeDocumentMoniker": "RecipeViewModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\KitchenCoPilot\\RecipeViewModel.cs",
+              "RelativeToolTip": "RecipeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:47:05.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\KitchenCoPilot\\Recipe.cs",
+              "RelativeDocumentMoniker": "Recipe.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\KitchenCoPilot\\Recipe.cs",
+              "RelativeToolTip": "Recipe.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAkwDUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:44:29.748Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GvqvfqUHpjs=",
+  "dgSpecHash": "7Mo2F4ZmuhI=",
   "success": true,
   "projectFilePath": "C:\\Users\\opilane\\source\\repos\\KitchenCoPilot\\KitchenCoPilot.csproj",
   "expectedPackageFiles": [
@@ -26,8 +26,14 @@
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\8.0.61\\microsoft.maui.graphics.win2d.winui.desktop.8.0.61.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.61\\microsoft.maui.resizetizer.8.0.61.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.7\\microsoft.net.illink.tasks.8.0.7.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\microsoft.ui.xaml\\2.8.2\\microsoft.ui.xaml.2.8.2.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\microsoft.web.webview2\\1.0.1264.42\\microsoft.web.webview2.1.0.1264.42.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240311000\\microsoft.windowsappsdk.1.5.240311000.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\system.io.pipelines\\9.0.0\\system.io.pipelines.9.0.0.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\system.net.http.json\\9.0.0\\system.net.http.json.9.0.0.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\system.text.encodings.web\\9.0.0\\system.text.encodings.web.9.0.0.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.15.1.2\\xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KitchenCoPilot.RecipeDetailPage">
+
+	<ScrollView>
+		<StackLayout Padding="10">
+			<Image x:Name="RecipeImage" Aspect="AspectFit" HeightRequest="200" />
+			<Label x:Name="RecipeTitle" FontSize="24" HorizontalOptions="Center" />
+			<Label Text="Ingredients" FontSize="18" />
+			<CollectionView x:Name="IngredientsCollectionView">
+				<CollectionView.ItemTemplate>
+					<DataTemplate>
+						<StackLayout Orientation="Horizontal" Padding="5">
+							<Image Source="{Binding ImageUrl}" WidthRequest="50" HeightRequest="50" />
+							<Label Text="{Binding Name}" VerticalOptions="Center" />
+						</StackLayout>
+					</DataTemplate>
+				</CollectionView.ItemTemplate>
+			</CollectionView>
+			<Label Text="Instructions" FontSize="18" />
+			<Label x:Name="RecipeInstructions" />
+		</StackLayout>
+	</ScrollView>
+</ContentPage>
