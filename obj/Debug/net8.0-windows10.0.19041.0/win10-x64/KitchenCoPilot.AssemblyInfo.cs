@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KitchenCoPilot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+52473c4f5414bec62d1826bb658709ad3111e19c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+5303843380af577f141c21b7579e69c6faff0ce3")]
 [assembly: System.Reflection.AssemblyProductAttribute("KitchenCoPilot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KitchenCoPilot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

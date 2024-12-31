@@ -20,6 +20,11 @@
 			</CollectionView>
 			<Label Text="Instructions" FontSize="18" />
 			<Label x:Name="RecipeInstructions" />
-		</StackLayout>
+
+            <Button Text="Add to Grocery List"
+                VerticalOptions="End"
+                Clicked="OnAddToGroceryListClicked" />
+
+        </StackLayout>
 	</ScrollView>
 </ContentPage>
