@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kennu\\source\\repos\\KitchenCoPilot\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|c:\\users\\kennu\\source\\repos\\kitchencopilot\\recipedetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|solutionrelative:recipedetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|c:\\users\\kennu\\source\\repos\\kitchencopilot\\recipedetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|solutionrelative:recipedetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|c:\\users\\kennu\\source\\repos\\kitchencopilot\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AB84A489-4E4E-4D49-A919-BB51DFFF0863}|KitchenCoPilot.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,62 +9,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RecipeDetailPage.xaml",
-              "DocumentMoniker": "C:\\Users\\kennu\\source\\repos\\KitchenCoPilot\\RecipeDetailPage.xaml",
-              "RelativeDocumentMoniker": "RecipeDetailPage.xaml",
-              "ToolTip": "C:\\Users\\kennu\\source\\repos\\KitchenCoPilot\\RecipeDetailPage.xaml",
-              "RelativeToolTip": "RecipeDetailPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-31T10:02:55.188Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RecipeDetailPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\kennu\\source\\repos\\KitchenCoPilot\\RecipeDetailPage.xaml.cs",
-              "RelativeDocumentMoniker": "RecipeDetailPage.xaml.cs",
-              "ToolTip": "C:\\Users\\kennu\\source\\repos\\KitchenCoPilot\\RecipeDetailPage.xaml.cs",
-              "RelativeToolTip": "RecipeDetailPage.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T10:03:45.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\kennu\\source\\repos\\KitchenCoPilot\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\kennu\\source\\repos\\KitchenCoPilot\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-31T10:06:47.214Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }
