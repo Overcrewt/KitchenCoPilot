@@ -1,4 +1,4 @@
-namespace KitchenCoPilot
+namespace KitchenCoPilot.Models
 {
     public class Recipe
     {
