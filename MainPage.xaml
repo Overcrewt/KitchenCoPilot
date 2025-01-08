@@ -2,11 +2,15 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KitchenCoPilot.MainPage"
-             BackgroundImageSource="background.jpg">
+             BackgroundImageSource="foodbackground.jpeg">
 
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
         <Button Text="Tap to search for recipes or try something new!"
-                FontSize="18"
-                Clicked="OnSearchButtonClicked"/>
+                FontSize="24"
+                Clicked="OnSearchButtonClicked"
+                BackgroundColor="Maroon"
+                BorderColor="AliceBlue"
+                TextColor="Goldenrod"/>
+                
     </StackLayout>
 </ContentPage>

@@ -6,8 +6,8 @@
         <ResourceDictionary>
             <Color x:Key="PrimaryColor">#EFBB31</Color>
             <Color x:Key="SecondaryColor">White</Color>
-            <Color x:Key="PageBackgroundColor">#16191E</Color>
-            <Color x:Key="BorderColor">#337777</Color>
+            <Color x:Key="BorderColor">#16191E</Color>
+            <Color x:Key="PageBackgroundColor">#337777</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
     <ScrollView>
@@ -31,7 +31,7 @@
             <Button Text="Add to Grocery List"
                 VerticalOptions="End"
                 Clicked="OnAddToGroceryListClicked"
-                  />
+                    />
             
 
         </StackLayout>
