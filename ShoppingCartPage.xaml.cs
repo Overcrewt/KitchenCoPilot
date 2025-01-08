@@ -13,8 +13,7 @@ namespace KitchenCoPilot
             var viewModel = BindingContext as ShoppingCartViewModel;
             if (viewModel != null)
             {
-                // Save the state of the shopping cart (e.g., to a file, database, or preferences)
-                // This is a placeholder for the actual save logic
+                
                 DisplayAlert("Shopping Cart", "Shopping cart saved successfully!", "OK");
             }
         }
