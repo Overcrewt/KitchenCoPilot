@@ -29,13 +29,7 @@ namespace KitchenCoPilot
             IngredientsCollectionView.ItemsSource = ingredients;
         }
 
-        private async void OnAddToGroceryListClicked(object sender, EventArgs e)
-        {
-            if (BindingContext is RecipeDetailViewModel viewModel && viewModel.SelectedRecipe != null)
-            {
-                await Navigation.PushAsync(new GroceryListPage(viewModel.SelectedRecipe));
-            }
-        }
+        
     }
 
     public class Ingredient
