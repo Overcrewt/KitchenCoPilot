@@ -1,4 +1,4 @@
-using KitchenCoPilot.Models;
+using KitchenCoPilot;
 using KitchenCoPilot.ViewModels;
 
 namespace KitchenCoPilot
