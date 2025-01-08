@@ -1,0 +1,21 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KitchenCoPilot.ShoppingCartPage">
+
+    <StackLayout Padding="10">
+        <Label Text="Shopping Cart" FontSize="24" HorizontalOptions="Center" />
+
+        <CollectionView ItemsSource="{Binding Ingredients}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <CheckBox IsChecked="{Binding IsSelected}" VerticalOptions="Center" />
+                        <Label Text="{Binding Name}" VerticalOptions="Center" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Save Cart" Clicked="OnSaveCartButtonClicked" HorizontalOptions="Center" VerticalOptions="End" Margin="10"/>
+    </StackLayout>
+</ContentPage>

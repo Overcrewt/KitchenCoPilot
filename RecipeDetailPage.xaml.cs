@@ -29,12 +29,11 @@ namespace KitchenCoPilot
             IngredientsCollectionView.ItemsSource = ingredients;
         }
 
-        
-    }
-
-    public class Ingredient
-    {
-        public string Name { get; set; } = string.Empty;
-        public string ImageUrl { get; set; } = string.Empty;
+        private async void OnViewIngredientsButtonClicked(object sender, EventArgs e)
+        {
+            var ingredients = IngredientsCollectionView.ItemsSource.Cast<Ingredient>().ToList();
+            var shoppingCartPage = new ShoppingCartPage(ingredients);
+            await Navigation.PushAsync(shoppingCartPage);
+        }
     }
 }
