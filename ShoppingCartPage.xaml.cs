@@ -13,7 +13,6 @@ namespace KitchenCoPilot
             var viewModel = BindingContext as ShoppingCartViewModel;
             if (viewModel != null)
             {
-                
                 DisplayAlert("Shopping Cart", "Shopping cart saved successfully!", "OK");
             }
         }
