@@ -3,7 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KitchenCoPilot.RecipeDetailPage">
 
-	<ScrollView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="View Saved Cart" Clicked="OnViewSavedCartButtonClicked" />
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
 		<StackLayout Padding="10">
 			<Image x:Name="RecipeImage" Aspect="AspectFit" HeightRequest="200" />
 			<Label x:Name="RecipeTitle" FontSize="24" HorizontalOptions="Center" />

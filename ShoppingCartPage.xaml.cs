@@ -8,13 +8,20 @@ namespace KitchenCoPilot
             BindingContext = new ShoppingCartViewModel(ingredients);
         }
 
-        private void OnSaveCartButtonClicked(object sender, EventArgs e)
+        private async void OnSaveCartButtonClicked(object sender, EventArgs e)
         {
             var viewModel = BindingContext as ShoppingCartViewModel;
             if (viewModel != null)
             {
-                DisplayAlert("Shopping Cart", "Shopping cart saved successfully!", "OK");
+                ShoppingCartService.SaveIngredients(viewModel.Ingredients.ToList());
+                await DisplayAlert("Shopping Cart", "Shopping cart saved successfully!", "OK");
+                await Navigation.PushAsync(new SavedCartPage());
             }
+        }
+
+        private async void OnViewSavedCartButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SavedCartPage());
         }
     }
 }

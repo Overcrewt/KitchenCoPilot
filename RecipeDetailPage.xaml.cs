@@ -35,5 +35,10 @@ namespace KitchenCoPilot
             var shoppingCartPage = new ShoppingCartPage(ingredients);
             await Navigation.PushAsync(shoppingCartPage);
         }
+
+        private async void OnViewSavedCartButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SavedCartPage());
+        }
     }
 }
