@@ -3,7 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KitchenCoPilot.RecipeDetailPage">
 
-	<ScrollView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="View Saved Cart" Clicked="OnViewSavedCartButtonClicked" />
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
 		<StackLayout Padding="10">
 			<Image x:Name="RecipeImage" Aspect="AspectFit" HeightRequest="200" />
 			<Label x:Name="RecipeTitle" FontSize="24" HorizontalOptions="Center" />
@@ -20,7 +24,11 @@
 			</CollectionView>
 			<Label Text="Instructions" FontSize="18" />
             <Label x:Name="RecipeInstructions" />
-
+            <Button Text="View Ingredients"
+        Clicked="OnViewIngredientsButtonClicked"
+        HorizontalOptions="Center"
+        VerticalOptions="End"
+        Margin="10"/>
         </StackLayout>
 	</ScrollView>
 </ContentPage>
