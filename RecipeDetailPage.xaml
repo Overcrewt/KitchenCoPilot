@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KitchenCoPilot.RecipeDetailPage">
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="PrimaryColor">#EFBB31</Color>
@@ -10,6 +11,13 @@
             <Color x:Key="PageBackgroundColor">#337777</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="View Saved Cart" Clicked="OnViewSavedCartButtonClicked" />
+    </ContentPage.ToolbarItems>
+
+
     <ScrollView>
 		<StackLayout Padding="10">
 			<Image x:Name="RecipeImage" Aspect="AspectFit" HeightRequest="200" />
@@ -26,14 +34,12 @@
 				</CollectionView.ItemTemplate>
 			</CollectionView>
 			<Label Text="Instructions" FontSize="18" />
-			<Label x:Name="RecipeInstructions" />
-
-            <Button Text="Add to Grocery List"
-                VerticalOptions="End"
-                Clicked="OnAddToGroceryListClicked"
-                    />
-            
-
+      <Label x:Name="RecipeInstructions" />
+      <Button Text="View Ingredients"
+        Clicked="OnViewIngredientsButtonClicked"
+        HorizontalOptions="Center"
+        VerticalOptions="End"
+        Margin="10"/>
         </StackLayout>
 	</ScrollView>
 </ContentPage>

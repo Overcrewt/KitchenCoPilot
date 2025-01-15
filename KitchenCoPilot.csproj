@@ -65,13 +65,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
+
 	  <Compile Update="FeedbackPage.xaml.cs">
 	    <DependentUpon>FeedbackPage.xaml</DependentUpon>
 	  </Compile>
-	</ItemGroup>
+	
 
-	<ItemGroup>
-	  <MauiXaml Update="GroceryListPage.xaml">
+	  <MauiXaml Update="SavedCartPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ShoppingCartPage.xaml">
+
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="FeedbackPage.xaml">
