@@ -11,6 +11,14 @@
                 BackgroundColor="Maroon"
                 BorderColor="AliceBlue"
                 TextColor="Goldenrod"/>
-                
+
+        <Button Text="Feedback" 
+                Clicked="OnFeedbackButtonClicked" 
+                VerticalOptions="End" 
+                HorizontalOptions="Center" 
+                BackgroundColor="Maroon"
+                BorderColor="AliceBlue"
+                TextColor="Goldenrod"/>
+
     </StackLayout>
 </ContentPage>
