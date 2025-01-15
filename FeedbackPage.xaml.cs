@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 namespace KitchenCoPilot
 {
     public partial class FeedbackPage : ContentPage
@@ -12,8 +14,8 @@ namespace KitchenCoPilot
 
         private void OnStarClicked(object sender, EventArgs e)
         {
-            var button = sender as ImageButton;
-            _rating = int.Parse(button.StyleId);
+            var button = sender as Button;
+            _rating = int.Parse(Regex.Match(button.StyleId, @"\d+").Value);
 
             
             
