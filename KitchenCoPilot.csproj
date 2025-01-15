@@ -69,6 +69,10 @@
 	  <Compile Update="FeedbackPage.xaml.cs">
 	    <DependentUpon>FeedbackPage.xaml</DependentUpon>
 	  </Compile>
+
+	  <MauiXaml Update="DeveloperInfoPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	
 
 	  <MauiXaml Update="SavedCartPage.xaml">
