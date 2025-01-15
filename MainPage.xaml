@@ -7,13 +7,26 @@
     <Grid>
         <!-- Define the rows and columns for the grid -->
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <!-- This row takes up the remaining space -->
             <RowDefinition Height="Auto" />
-            <!-- This row sizes itself to the content -->
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
 
-        <StackLayout Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center">
+        <!-- SETTINGS Button -->
+        <Button Text="SETTINGS"
+                Grid.Row="0"
+                Grid.Column="0"
+                Clicked="OnSettingsButtonClicked"
+                BackgroundColor="Maroon"
+                BorderColor="AliceBlue"
+                TextColor="Goldenrod"/>
+
+        <!-- Main Content -->
+        <StackLayout Grid.Row="1" Grid.ColumnSpan="2" VerticalOptions="Center" HorizontalOptions="Center">
             <Button Text="Tap to search for recipes or try something new!"
                     FontSize="24"
                     Clicked="OnSearchButtonClicked"
@@ -22,12 +35,6 @@
                     TextColor="Goldenrod"/>
         </StackLayout>
 
-        <Button Grid.Row="1" Text="Feedback" 
-                Clicked="OnFeedbackButtonClicked" 
-                VerticalOptions="End" 
-                HorizontalOptions="Center" 
-                BackgroundColor="Maroon"
-                BorderColor="AliceBlue"
-                TextColor="Goldenrod"/>
+        
     </Grid>
 </ContentPage>
