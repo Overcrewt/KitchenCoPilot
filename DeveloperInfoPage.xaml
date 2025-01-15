@@ -1,0 +1,25 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KitchenCoPilot.DeveloperInfoPage"
+             Title="Developer Info">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="KitchenCoPilot is a mobile app designed to assist you in cooking. With this app, you can search for recipes, apply filters, and add the required ingredients to your shopping cart. It's the perfect companion for anyone looking to streamline their cooking process and meal planning."
+                   FontSize="16"
+                   Margin="0,0,0,20" />
+
+            <Label Text="Contributors" FontSize="20" FontAttributes="Bold" />
+            <Label Text="    Dmitri Plotnikov" FontSize="16" />
+            <Label Text="    Ken Koolmeister" FontSize="16" />
+            <Label Text="    Steffi Osullivan" FontSize="16" />
+            <Label Text="    Kasper Kaljula" FontSize="16" />
+
+            <Label Text="License" FontSize="20" FontAttributes="Bold" Margin="0,20,0,0" />
+            <Label Text="This project is licensed under the Open Source License." FontSize="16" />
+
+            <Label Text="Contact" FontSize="20" FontAttributes="Bold" Margin="0,20,0,0" />
+            <Label Text="For any questions or feedback, please open an issue on GitHub." FontSize="16" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
