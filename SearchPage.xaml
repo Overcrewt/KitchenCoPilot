@@ -11,9 +11,15 @@
     <StackLayout Padding="10">
         <Label Text="Recipes" FontSize="24" HorizontalOptions="Center" />
         <SearchBar x:Name="RecipeSearchBar" Placeholder="Search for recipes..." BackgroundColor="#F0F0F0" TextColor="Black"/>
-        <Button Text="Search" Clicked="OnSearchButtonClicked" WidthRequest="100" HorizontalOptions="Start" Margin="0,5,0,5"/>
+        <Button Text="Search" Clicked="OnSearchButtonClicked" WidthRequest="100" HorizontalOptions="Start" Margin="0,5,0,5"
+                BackgroundColor="HotPink"
+                TextColor="Black"
+                FontSize="20"/>
 
-        <Button Text="Filter" Clicked="OnFilterButtonClicked" WidthRequest="100" HorizontalOptions="Start" Margin="0,20,0,0" />
+        <Button Text="Filter" Clicked="OnFilterButtonClicked" WidthRequest="100" HorizontalOptions="Start" Margin="0,20,0,0"
+                BackgroundColor="HotPink"
+                TextColor="Black"
+                FontSize="20"/>
 
         <Grid x:Name="FilterGrid" IsVisible="False" Margin="0,20,0,0">
             <Grid.RowDefinitions>

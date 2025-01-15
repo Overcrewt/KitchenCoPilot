@@ -3,9 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KitchenCoPilot.RecipeDetailPage">
 
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PrimaryColor">#EFBB31</Color>
+            <Color x:Key="SecondaryColor">White</Color>
+            <Color x:Key="BorderColor">#16191E</Color>
+            <Color x:Key="PageBackgroundColor">#337777</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="View Saved Cart" Clicked="OnViewSavedCartButtonClicked" />
     </ContentPage.ToolbarItems>
+
 
     <ScrollView>
 		<StackLayout Padding="10">
@@ -23,8 +34,8 @@
 				</CollectionView.ItemTemplate>
 			</CollectionView>
 			<Label Text="Instructions" FontSize="18" />
-            <Label x:Name="RecipeInstructions" />
-            <Button Text="View Ingredients"
+      <Label x:Name="RecipeInstructions" />
+      <Button Text="View Ingredients"
         Clicked="OnViewIngredientsButtonClicked"
         HorizontalOptions="Center"
         VerticalOptions="End"
@@ -32,3 +43,4 @@
         </StackLayout>
 	</ScrollView>
 </ContentPage>
+    

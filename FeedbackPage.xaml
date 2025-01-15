@@ -1,0 +1,36 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KitchenCoPilot.FeedbackPage">
+
+    <StackLayout Padding="10">
+        <Label Text="Leave Your Feedback" FontSize="24" HorizontalOptions="Center" />
+
+        <!-- Rating System -->
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button  x:Name="Star1" Clicked="OnStarClicked" Text="⭐"/>
+            <Button  x:Name="Star2" Clicked="OnStarClicked" Text="⭐" />
+            <Button  x:Name="Star3" Clicked="OnStarClicked" Text="⭐"/>
+            <Button  x:Name="Star4" Clicked="OnStarClicked" Text="⭐"/>
+            <Button  x:Name="Star5" Clicked="OnStarClicked" Text="⭐" />
+        </StackLayout>
+
+        <!-- Text Input Field -->
+        <Editor x:Name="FeedbackEditor" Placeholder="What did you like or what could be improved?" HeightRequest="100" />
+
+        <!-- Submit Button -->
+        <Button Text="Submit Feedback" Clicked="OnSubmitFeedbackClicked" />
+
+        <!-- Feedback Display -->
+        <Label Text="Submitted Feedback" FontSize="20" HorizontalOptions="Center" Margin="10,20,10,10" />
+        <CollectionView x:Name="FeedbackCollectionView" ItemsSource="{Binding Feedbacks}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10">
+                        <Label Text="{Binding Rating}" FontSize="18" />
+                        <Label Text="{Binding Comment}" FontSize="14" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
